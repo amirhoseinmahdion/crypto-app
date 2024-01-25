@@ -1,0 +1,28 @@
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.container button{
+    width: 80px;
+  border: none;
+  background-color: skyblue;
+  color: whitesmoke;
+  padding: 5px 10px ;
+}
+.container p{
+  border:  1px solid skyblue;
+  width:25px ;
+  border-radius: 5px;
+  text-align: center;
+}
+.disabled {
+    opacity: 0.3;
+}
+.selected{
+    background-color: skyblue;
+}
